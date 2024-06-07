@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="/public/assets/images/SAVE_Logo.svg">
+</head>
+<body>
+
+    <!-- Nav para PC-->
+    <nav class="nav">
+        <div class="nav-logo">
+            <a href="#Home"><img class="logo" src="/public/assets/images/SAVE_Logo.svg" alt="Logo do projeto 'Save Project'"></a>
+        </div>
+        <div class="nav-links">
+            <ul class="links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Tecnologia">A tecnologia</a></li>
+                <li><a href="#Objetivo">Objetivo</a></li>
+                <li><a href="#Impactos">Impactos</a></li>
+                <li><a href="#Beneficios">Benefícios</a></li>
+                <li><a href="#Acrescimos">Acréscimos</a></li>
+            </ul>
+        </div>
+            <button class="btnMenu" onClick="mobileMenu()"><img src="/public/assets/images/menu_hamburger.png" alt="menu hambúrguer" class="img-btnMenu"></button>
+    </nav>
+        <div class="menu-mobile invisivel">
+            <ul class="links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Tecnologia">A tecnologia</a></li>
+                <li><a href="#Objetivo">Objetivo</a></li>
+                <li><a href="#Impactos">Impactos</a></li>
+                <li><a href="#Beneficios">Benefícios</a></li>
+                <li><a href="#Acrescimos">Acréscimos</a></li>
+            </ul>
+        </div>
+    <!--Fim da Nav-->
+
+    <!--Home section-->
+    <section id="Home">
+        <div class="container">
+            <div class="conteudo">
+                <div class="esquerda esquerda-respHome">
+                    <div class="organiza">
+                        <div class="save">
+                            <h1>SA</h1>
+                            <h1 class="VE">VE</h1>
+                        </div>
+                        <div class="planet">
+                            <p>The Planet</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="direita direita-respHome"> 
+                    <h1>Problemática</h1>
+                    <p class="texto">O problema da poluição das águas é real e temos de combater. Isso é fato. Mas como fazer isso? A SAVE preparou uma solução prática e tecnológica que melhorará a qualidade das águas do planeta. </p>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!--Fim da home section-->
+
+    <!--Section "A tecnologia"-->
+    <section id="Tecnologia">
+        <div class="container">
+            <div class="conteudo conteudo-respTech">
+                <div class="esquerda esquerda-respTech">
+                    <h1 class="titulo">A tecnologia</h1>
+                    <p class="texto">A tecnologia se baseia numa câmera que fará a vistoria do é trazido pela correnteza dos rios. Se for algo perigoso para o ecossistema, o sistema faz o desvio para uma lixeira própria.</p>
+                </div>
+                <div class="direita direita-respTech">
+                    <div class="video">
+                        <!--Iframe do vídeo-->
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VIbjjDtQVhQ?si=eMyeebHivRLpNVqd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim da section "A tecnologia"-->
+
+    <!--Section Objetivo-->
+    <section id="Objetivo">
+        <div class="container">
+            <div class="conteudo conteudo-respObj">
+                <div class="esquerda obj esquerda-respObj">
+                    <div class="titulo-organizado">
+                        <h4 class="tema">OBJETIVO</h4>
+                        <h1 class="titulo">S.A.V.E</h1>
+                        <hr class="linha">
+                    </div>
+                    <p class="texto-obj">O Sistema Automatizado Verificador de Entulhos (ou SAVE) tem como  principal objetivo, como a sigla em inglês sugere, "salvar" o planeta Terra. Assegurando a água pura e garantindo, assim, um planeta mais verde e saudável.</p>
+                </div>
+                <div class="direita-respObj direita">
+                    <img class="terra" src="/public/assets/images/Terra.png" alt="Mãos 'abraçando' o planeta Terra">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim da section Objetivo-->
+
+    <!--Section Impactos-->
+    <section id="Impactos">
+        <div class="container">
+            <div class="conteudo conteudo-respImpact">
+                <div class="esquerda esquerda-respImpact">
+                    <div class="grafico">
+                        <img src="/public/assets/images/nilo-amazonas.jpg" alt="Gráfico dos impactos que a solução trás" class="img-grafico">
+                    </div>
+                </div>
+                <div class="direita direita-respImpact">
+                    <h1 class="titulo">Impactos</h1>
+                    <p class="texto">A solução da SAVE impacta à pessoas, ong's e empresas que estão comprometidas com a agenda ESG, visto que melhora a qualidade dos rios e do ecossistema como um todo. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim da section Impactos-->
+
+    <!--Section Benefícios -->
+    <section id="Beneficios">
+        <div class="container">
+            <div class="content">
+                <div class="cima">
+                    <h1 class="titulo">Benefícios</h1>
+                </div>
+                <div class="baixo">
+                    <!--Card 1-->
+                    <div class="card verde-musgo">
+                        <div class="circulo">
+                            <img  class="icone" src="/public/assets/images/cofrinho.png" alt="Ícone de cofrinho">
+                        </div>
+                        <div class="texto-card">A solução é barata, o que facilita bastante em sua implementação nos diversos locais.</div>
+                    </div>
+                    <!--Fim do card 1-->
+
+                    <!--Card 2-->
+                    <div class="card verde-agua">
+                        <div class="circulo">
+                            <!--Inserir ícone-->
+                            <img  class="icone" src="/public/assets/images/arvore.png" alt="Ícone de cofrinho">
+                        </div>
+                        <div class="texto-card">A solução pouco interfere no meio ambiente, pois é compacta e necessita de poucos materiais.</div>
+                   </div>
+                   <!--Fim do card 2-->
+
+                   <!--Card 3-->
+                    <div class="card azul-escuro">
+                        <div class="circulo">
+                            <!--Inserir ícone-->
+                            <img  class="icone" src="/public/assets/images/peixe.png" alt="Ícone de cofrinho">
+                        </div>
+                        <div class="texto-card">A solução consegue separar o lixo sem interferir na vida dos animais aquáticos. </div>
+                    </div>
+                    <!--Fim do card 3-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Fim da section Benefícios-->
+
+    <!--Section Acréscimos-->
+    <section id="Acrescimos">
+        <div class="container">
+            <div class="content">
+                <div class="cima2">
+                    <h1 class="titulo">Acréscimos na vida das pessoas</h1>
+                </div>
+                <div class="baixo2">
+                    <div class="carousel">
+                        <div class="slides">
+                            <!--Radio Buttons-->
+                            
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+
+                            <div class="slide first">
+                                <img src="/public/assets/images/Imagem 1.svg" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/public/assets/images/Imagem 2.svg" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/public/assets/images/Imagem 3.svg" alt="Imagem 3">
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="manual-navigation">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="rodape">
+        <div class="rodape-logo">
+            <img src="/public/assets/images/SAVE_Logo.svg" alt="" class="logo">
+        </div>
+        <div class="direitos">@2024 SAVE Project - Todos os direitos reservados</div>
+        <div class="redes-sociais">
+            <div class="rede">
+                <a href=""><img src="/public/assets/images/insta.svg" alt="Instagram oficial da SAVE" class="img-rede"></a>
+                <p>@SAVE_Project</p>
+            </div>
+            <div class="rede">
+                <a href=""><img src="/public/assets/images/x.svg" alt="Twitter oficial da SAVE" class="img-rede"></a>
+                <p>@SAVE_Project</p>
+            </div>
+            <div class="rede">
+                <a href=""><img src="/public/assets/images/yt.svg" alt="Twitter oficial da SAVE" class="img-rede yt"></a>
+                <p>@SAVE_Project</p>
+            </div>
+           
+        </div>
+    </footer>
+    <script src="/public/assets/scripts/script.js"></script>
+</body>
+</html>
